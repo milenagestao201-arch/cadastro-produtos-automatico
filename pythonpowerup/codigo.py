@@ -1,6 +1,6 @@
 # Passo a passo do projeto
 # Passo 1: Entrar no sistema da empresa 
-    # https://dlp.hashtagtreinamentos.com/python/intensivao/login
+    # https://d
 
 import pyautogui
 import time
@@ -21,13 +21,13 @@ time.sleep(3)
 #print(pyautogui.position())
 
 pyautogui.click(x=660, y=66)
-pyautogui.write("https://dlp.hashtagtreinamentos.com/python/intensivao/login")
+pyautogui.write("site da empresa")
 pyautogui.press("enter")
 time.sleep(3)
 #print(pyautogui.position())
 pyautogui.click(x=1038, y=366)
 # escrever o seu email
-pyautogui.write("pythonimpressionador@gmail.com")
+pyautogui.write("email da empresa")
 pyautogui.press("tab") # passando pro próximo campo
 pyautogui.write("sua senha")
 time.sleep(3)
